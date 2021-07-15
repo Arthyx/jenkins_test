@@ -3,4 +3,4 @@ services:
   tienda:
     build: .
     ports:
-    - "7070:707"
+    - "5000:5000"
