@@ -10,6 +10,6 @@ public class RController {
 
 	@RequestMapping("/")
 	public String helloWorld() {
-		return "Hello, Monica! /r/n Fecha de hoy " + LocalDateTime.now();
+		return "Hello, Monica! \r\n Fecha de hoy " + LocalDateTime.now();
 	}
 }
