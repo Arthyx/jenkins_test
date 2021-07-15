@@ -8,6 +8,6 @@ public class RController {
 
 	@RequestMapping("/")
 	public String helloWorld() {
-		return "Hello, World!";
+		return "Hello, Monica!";
 	}
 }
