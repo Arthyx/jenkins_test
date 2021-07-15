@@ -1,0 +1,6 @@
+version: '3'
+services:
+  tienda:
+    build: .
+    ports:
+    - "7070:707"
